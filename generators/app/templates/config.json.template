@@ -1,0 +1,18 @@
+{
+  "syncEndpoint" : "http://192.168.99.100:4985",
+  "cbEndpoint" : "couchbase://192.168.99.100",
+  "bucket" : "default",
+  "bucketPassword" : "",
+  "port" : 8000,
+  "sslPort" : 8443,
+  "cors" : true,
+  "SSLCert":"/path/to/cert",
+  "SSLKey":"/path/to/key",
+  "amqp": {
+    "server": "10.240.0.3:5672",
+    "username": "guest",
+    "password": "guest",
+    "exchange": "exchange-rabbitmq",
+    "routingKey": "routing-key"
+  }
+}
